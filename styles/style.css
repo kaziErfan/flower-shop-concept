@@ -7,7 +7,6 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .primary-btn {
     color: #FFF;
     font-size: 20px;
@@ -17,7 +16,15 @@ body {
     background: #c82f7f;
     border: 0;
 }
+.section-title{
 
+}
+.section-description{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* Header Section CSS */
 .header-section {
     display: flex;
@@ -51,9 +58,12 @@ p {
     font-weight: 800;
 }
 
-.header-description {
-    color: #272727;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+/* Main Related CSS */
+
+/* Featured Section CSS */
+.featured-items{
+    display: flex;
+}
+.featured-items img{
+    width: 200px;
 }
