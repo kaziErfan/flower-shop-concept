@@ -6,3 +6,22 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+img{
+    max-width: 100%;
+}
+
+/* Header Section CSS */
+.header-section{
+    display: flex;
+    background-color: #e554731a;
+    padding: 0 200px;
+    gap: 100px;
+}
+.header-content{
+    width: 50%;
+    margin: 200px 0;
+}
+.header-image{
+    margin-top: 50px;
+    
+}
