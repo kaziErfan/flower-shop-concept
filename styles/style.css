@@ -8,32 +8,43 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-img {
-    max-width: 100%;
+.primary-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #c82f7f;
+    border: 0;
 }
-
 
 /* Header Section CSS */
 .header-section {
     display: flex;
     background-color: #e554731a;
-    gap: 100px;
+    gap: 150px;
 }
 
 .header-content {
-    width: 50%;
+    width: 40%;
     margin-top: 100px;
     margin-left: 220px;
 }
 
 .header-image {
-    margin-top: 50px;
+    margin-top: 115px;
     margin-right: 200px;
-
 }
-.header-content h2, p{
+.header-image img{
+    height: 535px;
+    width: auto;
+}
+
+.header-content h2,
+p {
     margin-bottom: 30px;
 }
+
 .header-title {
     color: #272727;
     font-size: 65px;
