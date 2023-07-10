@@ -91,7 +91,14 @@ main {
     width: 200px;
 }
 .featured-flower{
-    padding: 110px 78px 0 78px;
+    padding: 100px 70px 0 70px;
+    border-radius: 300px 300px 0 0;
+}
+.flower-items-link{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 /* Flower items ID */
