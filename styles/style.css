@@ -7,6 +7,9 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+main section{
+    margin-bottom: 125px;
+}
 
 .primary-btn {
     color: #FFF;
@@ -126,7 +129,6 @@ body {
 /*Customer Service Seciton */
 .service-section {
     display: flex;
-    margin-top: 130px;
     justify-content: center;
     background-color: #f4f4f4;
     gap: 100px;
@@ -152,7 +154,6 @@ body {
 
 /* Discount Section */
 .discount-section{
-    margin-top: 130px;
     background-color: #fceef1;
     display: flex;
     gap: 200px;
@@ -182,4 +183,9 @@ body {
 }
 .social-items img{
     width: 270px;
+}
+
+/* Offers & Deals section CSS*/
+.offer-section h3, p{
+    text-align: center;
 }
