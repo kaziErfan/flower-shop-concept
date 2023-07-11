@@ -194,17 +194,20 @@ p {
 
 /* Offers & Deals section CSS*/
 
-.offer-section{
+.offer-section {
     background-image: url('/flower-assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 350px;
     width: auto;
 }
-.offer-section-content h3, p{
+
+.offer-section-content h3,
+p {
     text-align: center;
 }
-.offer-section-content{
+
+.offer-section-content {
     padding-top: 80px;
 }
 
@@ -215,7 +218,7 @@ p {
     gap: 16px;
 }
 
-.subscribe input[type="email"]{
+.subscribe input[type="email"] {
     padding: 24px;
     width: 450px;
     border-radius: 8px;
@@ -224,6 +227,33 @@ p {
 }
 
 /* Footer section CSS */
-footer{
+footer {
     text-align: center;
+    background-color: #111010;
+}
+.footer-content{
+    padding: 200px 0;
+}
+
+.footer-ttile {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.copyright-details {
+    color: #5f5f5f;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
 }
