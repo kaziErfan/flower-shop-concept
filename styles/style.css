@@ -64,8 +64,7 @@ span{
     width: auto;
 }
 
-.header-content h2,
-p {
+.header-content h2, p{
     margin-bottom: 30px;
 }
 
@@ -176,7 +175,7 @@ p {
 
 .discount-details {
     margin: 230px 0 170px 200px;
-    width: 40%;
+    width: 35%;
     text-align: center;
 
 }
@@ -237,8 +236,8 @@ p {
     gap: 24px;
 }
 .blog-items img {
-    width: 360px;
-    height: 315px;
+    width: 350px;
+    height: 300px;
     margin-bottom: 15px;
 }
 .blog-items i{
@@ -262,7 +261,17 @@ p {
     color: #6e6c6c;
     font-weight: 400;
     margin-top: 10px;
+    margin-bottom: 0;
 
+}
+.read-more-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #c82f7f;
+    color: #fff;
+    margin-top: 16px;
+    font-weight: 700;
 }
 
 /* Footer section CSS */
