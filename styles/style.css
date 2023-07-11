@@ -236,9 +236,10 @@ span{
     gap: 24px;
 }
 .blog-items img {
-    width: 350px;
+    width: 360px;
     height: 300px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 .blog-items i{
     margin-right: 10px;
