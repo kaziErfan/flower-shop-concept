@@ -231,6 +231,15 @@ p {
     background: #FFF;
     border: 0;
 }
+/* Blog Section CSS */
+.blogs{
+    display: flex;
+    gap: 24px;
+}
+.blog-items img {
+    width: 360px;
+    height: 315px;
+}
 
 /* Footer section CSS */
 footer {
