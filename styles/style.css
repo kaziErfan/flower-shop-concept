@@ -35,6 +35,9 @@ main section {
     font-weight: 400;
     line-height: 30px;
 }
+span{
+    color: #c82f7f;
+}
 
 /* Header Section CSS */
 .header-section {
@@ -52,6 +55,8 @@ main section {
 .header-image {
     margin-top: 115px;
     margin-right: 200px;
+    height: 535px;
+    width: auto;
 }
 
 .header-image img {
@@ -89,12 +94,14 @@ p {
     margin-top: 50px;
     justify-content: center;
     gap: 24px;
+    height: 380px;
+    width: auto;
 }
 
 .featured-items img {
-    width: 200px;
+    width: 215px;
+    height: 280px;
 }
-
 .featured-flower {
     padding: 100px 70px 0 70px;
     border-radius: 300px 300px 0 0;
@@ -202,8 +209,7 @@ p {
     width: auto;
 }
 
-.offer-section-content h3,
-p {
+.offer-section-content{
     text-align: center;
 }
 
