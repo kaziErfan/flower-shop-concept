@@ -201,7 +201,7 @@ span{
 /* Offers & Deals section CSS*/
 
 .offer-section {
-    background-image: url('/flower-assets/Rectangle9.png');
+    background-image: url('../flower-assets/Rectangle9.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 350px;
@@ -305,4 +305,9 @@ footer {
     font-size: 16px;
     font-weight: 400;
     margin-top: 32px;
+}
+.copyright-details a{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-weight: 400;
 }
