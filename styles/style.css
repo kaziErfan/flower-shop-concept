@@ -90,24 +90,36 @@ main {
 .featured-items img {
     width: 200px;
 }
-.featured-flower{
+
+.featured-flower {
     padding: 100px 70px 0 70px;
     border-radius: 300px 300px 0 0;
 }
-.flower-items-link{
+
+.flower-items-link {
     display: flex;
-    gap: 250px;
+    gap: 210px;
     justify-content: center;
     margin-top: 30px;
 }
 
+.flower-items-link a {
+    color: #272727;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
 /* Flower items ID */
-#flower-one{
+#flower-one {
     background-color: #f2dee7;
 }
-#flower-two{
+
+#flower-two {
     background-color: #d9eff1;
 }
-#flower-three{
+
+#flower-three {
     background-color: #e3ebdb;
 }
