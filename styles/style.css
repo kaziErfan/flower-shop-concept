@@ -167,3 +167,19 @@ body {
     text-align: center;
 
 }
+
+/* Social Section */
+
+.social-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.social-items{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.social-items img{
+    width: 270px;
+}
