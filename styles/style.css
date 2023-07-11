@@ -123,3 +123,16 @@ main {
 #flower-three {
     background-color: #e3ebdb;
 }
+
+/*Customer Service Seciton */
+.service-section{
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    background-color: #f4f4f4;
+    gap: 100px;
+    
+}
+.services{
+    padding: 85px 80px;
+}
