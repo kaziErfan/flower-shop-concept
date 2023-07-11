@@ -35,7 +35,7 @@ body {
 /* Header Section CSS */
 .header-section {
     display: flex;
-    background-color: #e554731a;
+    background-color: #fceef1;
     gap: 150px;
 }
 
@@ -55,8 +55,7 @@ body {
     width: auto;
 }
 
-.header-content h2,
-p {
+.header-content h2, p {
     margin-bottom: 30px;
 }
 
@@ -67,7 +66,7 @@ p {
 }
 
 /* Main Related CSS */
-main {
+.section-width{
     max-width: 1140px;
     margin: 150px auto;
 }
@@ -154,4 +153,17 @@ main {
 /* Discount Section */
 .discount-section{
     margin-top: 130px;
+    background-color: #fceef1;
+    display: flex;
+    gap: 200px;
+
+}
+.discount-item{
+    margin: 100px 0;
+}
+.discount-details{
+    margin: 230px 0 170px 200px;
+    width: 40%;
+    text-align: center;
+
 }
