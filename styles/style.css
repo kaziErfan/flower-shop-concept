@@ -98,7 +98,7 @@ main {
 
 .flower-items-link {
     display: flex;
-    gap: 210px;
+    gap: 230px;
     justify-content: center;
     margin-top: 30px;
 }
@@ -106,7 +106,7 @@ main {
 .flower-items-link a {
     color: #272727;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration-line: underline;
 }
@@ -125,14 +125,28 @@ main {
 }
 
 /*Customer Service Seciton */
-.service-section{
+.service-section {
     display: flex;
     margin-top: 130px;
     justify-content: center;
     background-color: #f4f4f4;
     gap: 100px;
-    
+    border-radius: 8px;
+
 }
-.services{
-    padding: 85px 80px;
+
+.services {
+    padding: 85px 0;
+    text-align: center;
+}
+.service-image{
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+.service-type {
+    color: #797979;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
