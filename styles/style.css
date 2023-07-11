@@ -222,3 +222,8 @@ p {
     background: #FFF;
     border: 0;
 }
+
+/* Footer section CSS */
+footer{
+    text-align: center;
+}
