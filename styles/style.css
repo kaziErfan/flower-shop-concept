@@ -7,7 +7,8 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-main section{
+
+main section {
     margin-bottom: 125px;
 }
 
@@ -58,7 +59,8 @@ main section{
     width: auto;
 }
 
-.header-content h2, p {
+.header-content h2,
+p {
     margin-bottom: 30px;
 }
 
@@ -69,7 +71,7 @@ main section{
 }
 
 /* Main Related CSS */
-.section-width{
+.section-width {
     max-width: 1140px;
     margin: 150px auto;
 }
@@ -140,7 +142,8 @@ main section{
     padding: 85px 0;
     text-align: center;
 }
-.service-image{
+
+.service-image {
     margin-bottom: 20px;
     width: 80px;
 }
@@ -153,16 +156,18 @@ main section{
 }
 
 /* Discount Section */
-.discount-section{
+.discount-section {
     background-color: #fceef1;
     display: flex;
     gap: 200px;
 
 }
-.discount-item{
+
+.discount-item {
     margin: 100px 0;
 }
-.discount-details{
+
+.discount-details {
     margin: 230px 0 170px 200px;
     width: 40%;
     text-align: center;
@@ -171,21 +176,49 @@ main section{
 
 /* Social Section */
 
-.social-content{
+.social-content {
     text-align: center;
     width: 50%;
     margin: 0 auto;
 }
-.social-items{
+
+.social-items {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.social-items img{
+
+.social-items img {
     width: 270px;
 }
 
 /* Offers & Deals section CSS*/
-.offer-section h3, p{
+
+.offer-section{
+    background-image: url('/flower-assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    width: auto;
+}
+.offer-section-content h3, p{
     text-align: center;
+}
+.offer-section-content{
+    padding-top: 80px;
+}
+
+.subscribe {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.subscribe input[type="email"]{
+    padding: 24px;
+    width: 450px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
 }
