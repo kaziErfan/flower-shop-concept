@@ -239,6 +239,30 @@ p {
 .blog-items img {
     width: 360px;
     height: 315px;
+    margin-bottom: 15px;
+}
+.blog-items i{
+    margin-right: 10px;
+}
+.blog-items a{
+    text-decoration: none;
+}
+.blog-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.blog-title{
+    color: #111010;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.blog-caption{
+    color: #6e6c6c;
+    font-weight: 400;
+    margin-top: 10px;
+
 }
 
 /* Footer section CSS */
